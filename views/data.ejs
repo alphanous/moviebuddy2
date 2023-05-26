@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>moviebuddy</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	<link rel="stylesheet" href="./css/data.css">
+	<script src="https://kit.fontawesome.com/eda3d084d7.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+	<div id="preloader"></div>
+	<div class="col-md-4 col-md-offset-4">
+		<header>
+			<a href="#" class="logo">moviebuddy</a>
+			<ul>
+				<li class="home" onclick="scrollToTop()"><a href="#"><i class="fa-sharp fa-solid fa-house">home</i></a></li>
+				<li class="service"><a href="#"><i class="fa-sharp fa-solid fa-earth-asia">services</i></a></li>
+				<li><a href="/about"><i class="fa-solid fa-circle-info">about</i></a></li>
+				<li class="contact"><a href="#"><i class="fa-solid fa-phone">contact</i></a></li>
+				<li><a href="/logout"><i class="fa-solid fa-right-from-bracket">Logout</i></a></li>
+			</ul>
+		</header>
+		<div class="f1">
+			<div class="first">
+				<div class="top">
+					<div class="coloredbox">
+						<p>new</p>
+					</div>
+					<h2>Peaky blinders</h2>
+					<!-- <P class="nice">check now</P> -->
+					<input type="button" class="btn1" value="watch-now" onclick="location.href = 'https://www.youtube.com/watch?v=Ruyl8_PT_y8&t=4s&ab_channel=Netflix';">
+				</div>
+			</div>
+			<div class="f2">
+				<div class="aa">
+					<h2 class="fir">popular movies</h2>
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><a href="/booking"><img src="/css/1st.jpg" alt="not working"></a>
+							</div>
+							<div class="swiper-slide"><a href="#"><img src="/css/2nd.jpg" alt="not working"></a>
+							</div>
+							<div class="swiper-slide"><a href="#"><img src="/css/3rd.jpg" alt="not working"></a>
+							</div>
+							<div class="swiper-slide"><a href="#"><img src="/css/4th.jpg" alt="not working"></a>
+							</div>
+							<div class="swiper-slide"><a href="#"><img src="/css/5th.jpg" alt="not working"></a>
+							</div>
+							<div class="swiper-slide"><a href="#"><img src="/css/6th.jpg" alt="not working"></a>
+							</div>
+							<div class="swiper-slide"><a href="#"><img src="/css/7th.jpg" alt="not working"></a>
+							</div>
+							<div class="swiper-slide"><a href="#"><img src="/css/8th.jpeg" alt="not working"></a>
+							</div>
+							<div class="swiper-slide"><a href="#"><img src="/css/9th.jpg" alt="not working"></a>
+							</div>
+						</div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+				<div class="bb">
+					<h2 class="sec">evregreen movies</h2>
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><a href="#"><img src="/css/1sta.jpg" alt=""></a></div>
+							<div class="swiper-slide"><a href="#"><img src="/css/2nda.jpg" alt=""></a></div>
+							<div class="swiper-slide"><a href="#"><img src="/css/3rda.jpg" alt=""></a></div>
+							<div class="swiper-slide"><a href="#"><img src="/css/4tha.jpeg" alt=""></a></div>
+							<!-- <div class="swiper-slide"><img src="/css/1sta.jpg" alt=""></div>
+							<div class="swiper-slide"><img src="/css/5tha.jpg" alt=""></div>
+							<div class="swiper-slide"><img src="/css/6tha.png" alt=""></div>
+							<div class="swiper-slide"><img src="/css/7tha.jpg" alt=""></div>
+							<div class="swiper-slide"><img src="/css/2nda.jpg" alt=""></div> -->
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</div>
+			<div class="about" id="about">
+
+				<div class="abt">
+					<h2>services</h2>
+				</div>
+				<div class="container">
+					<div class="card" style="--color: #89ec5b">
+						<div class="content">
+							<div class="icon">
+								<ion-icon name="brush-outline"></ion-icon>
+							</div>
+							<div class="text">
+								<h3>BOOK_TICKET</h3>
+								<p>On this website you can book ticket very fast and smooth</p>
+								<a onclick="window.location.href = '/booking'; ">BOOK-NOW</a>
+							</div>
+						</div>
+					</div>
+					<div class="card" style="--color: #eb5ae5">
+						<div class="content">
+							<div class="icon">
+								<ion-icon name="code-slash-outline"></ion-icon>
+							</div>
+							<div class="text">
+								<h3>EXPLORE-WEBSERIES</h3>
+								<p>Here you can explore about new webseries that are launched recently</p>
+								<a href="#">EXPLORE</a>
+							</div>
+						</div>
+					</div>
+					<div class="card" style="--color: #5b98eb">
+						<div class="content">
+							<div class="icon">
+								<ion-icon name="construct-outline"></ion-icon>
+							</div>
+							<div class="text">
+								<h3>TOP RATED MOVIES</h3>
+								<p>On our website you can see the list of top rated movies</p>
+								<a href="https://www.imdb.com/chart/top/">CHECK-NOW</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<h2>follow us on social-media</h2>
+				<div class="sm">
+					<ul>
+						<li><a href="#"><i class="fab fa-facebook-f icon"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter icon"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+						<li><a href="#"><i class="fa-brands fa-instagram icon"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="copy">
+				<h5>&copy; Copyright 2022 MOVIEBUDDY</h5>
+			</div>
+		</div>
+	</div>
+	<script>
+        setTimeout(function() {
+    $('#preloader').fadeOut('slow');
+}, 3000);
+    </script>
+	<script type="text/javascript">
+		window.addEventListener("scroll", function () {
+			var header = document.querySelector("header");
+			header.classList.toggle("sticky", window.pageYOffset > 0);
+		})
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script>
+		var swiper = new Swiper(".aa .mySwiper", {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			slidesPerGroup: 3,
+			loop: true,
+			loopFillGroupWithBlank: true,
+			autoplay: {
+				delay: 2500,
+				disableOnInteraction: false,
+			},
+			pagination: {
+				el: ".aa .swiper-pagination",
+				clickable: true,
+			},
+			navigation: {
+				nextEl: ".aa .swiper-button-next",
+				prevEl: ".aa .swiper-button-prev",
+			},
+		});
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper(".bb .mySwiper", {
+			slidesPerView: 4,
+			spaceBetween: 30,
+			centeredSlides: true,
+			pagination: {
+				el: ".bb .swiper-pagination",
+				clickable: true,
+			},
+		});
+	</script>
+	<script>
+		$(".service").click(function () {
+			$('html,body').animate({
+				scrollTop: $(".about").offset().top
+			},
+				'slow');
+		});
+
+		$(".contact").click(function () {
+			$('html,body').animate({
+				scrollTop: $(".footer").offset().top
+			},
+				'slow');
+		});
+	</script>
+	<script>
+        function scrollToTop() {
+            $(window).scrollTop(0);
+        }
+    </script>
+</body>
+
+</html>

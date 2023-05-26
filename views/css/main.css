@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #151515;
+}
+
+#form1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	padding: 20px;
+	background: rgb(0, 0, 0);
+	border-radius: 20px;
+	border: 3px solid rgb(247, 237, 57);
+	height: 500px;
+	margin-top: -30px;
+}
+
+#form1 h2 {
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 20px;
+	font-family: 'Sofia', cursive;
+	color: aqua;
+	text-shadow: 5px 5px 10px aqua;
+}
+
+#form1 .form-control {
+	margin-top: 40px;
+	margin-left: 35px;
+	width: 70%;
+	height: 20px;
+	padding: 10px;
+	font-size: 15px;
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid rgb(247, 237, 57);
+	color: aqua
+}
+#form1 .form-control::placeholder{
+	color: rgb(247, 237, 57);
+    opacity: 0.5;
+}
+ .btn{
+	margin-top: 35px;
+    margin-left: 120px;
+    width: 30%;
+    height: 35px;
+    outline: none;
+    text-decoration: none;
+    border: 3px solid aqua;
+    border-radius: 30px;
+    cursor: pointer;
+    background: transparent;
+    color: aqua;
+}
+ .btn:hover{
+	transition: 0.5s;
+    background: aqua;
+    color: rgb(0, 0, 0);  
+    font-weight: bold; 
+}
+.last{
+	position: relative;
+	margin-top: 15px;
+	margin-left: 90px;
+	color: aqua;
+}
+.last a{
+	color: rgb(247, 237, 57);
+	text-decoration: none;
+}
+.mssg{
+	color:rgb(247, 237, 57);
+	text-align: center;
+}
