@@ -1,7 +1,7 @@
 {
-  "name": "creating-registration-and-login-form-in-nodejs-and-mongodb",
+  "name": "moviebuddy",
   "version": "1.0.0",
-  "description": "This is a user login and registration app using Node.js, Express, Mongoose and express-sessions. ",
+  "description": "This is a online movie ticket booking web application",
   "main": "server.js",
   "dependencies": {
     "connect-mongo": "^3.0.0",
@@ -15,14 +15,26 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "author": "alphanous",
+  "license": "ISC",
+  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/guruhariharaun/creating-registration-and-login-form-in-nodejs-and-mongodb"
+    "url": "git+https://github.com/alphanous/moviebuddy.git"
   },
-  "author": "GuruRoxz",
-  "license": "ISC",
+  "keywords": [
+    "This",
+    "is",
+    "a",
+    "online",
+    "movie",
+    "ticket",
+    "booking",
+    "web",
+    "application"
+  ],
   "bugs": {
-    "url": "https://github.com/guruhariharaun/creating-registration-and-login-form-in-nodejs-and-mongodb"
+    "url": "https://github.com/alphanous/moviebuddy/issues"
   },
-  "homepage": "https://github.com/guruhariharaun/creating-registration-and-login-form-in-nodejs-and-mongodb#read.me"
+  "homepage": "https://github.com/alphanous/moviebuddy#readme"
 }
